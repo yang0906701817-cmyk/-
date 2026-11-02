@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: #eef5f1;
+  font-family: Arial, "Microsoft JhengHei", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#game-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px;
+}
+
+canvas {
+  display: block;
+  width: 100% !important;
+  max-width: 800px;
+  height: auto !important;
+  border-radius: 14px;
+  touch-action: manipulation;
+}
